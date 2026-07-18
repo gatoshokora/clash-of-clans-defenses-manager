@@ -1,0 +1,1 @@
+# clash-of-clans-defenses-manager
