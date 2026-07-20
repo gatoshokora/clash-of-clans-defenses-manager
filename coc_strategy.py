@@ -441,7 +441,7 @@ def show_star_graph():
       else:
         stars_count[stars] = 1
 
-  labels = [f"★{star}" for star in stars_count.kets()]
+  labels = [f"★{star}" for star in stars_count.keys()]
   values = list(stars_count.values())
 
   plt.rcParams["font.family"] = "Yu Gothic"
